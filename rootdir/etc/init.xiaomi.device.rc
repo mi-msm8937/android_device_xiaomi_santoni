@@ -1,3 +1,10 @@
+# Baseband
+service baseband-sh /vendor/bin/init.baseband.sh
+    class late_start
+    user system
+    group system
+    oneshot
+
 # IR
 on boot
     chown system system /sys/class/leds/infrared/transmit
