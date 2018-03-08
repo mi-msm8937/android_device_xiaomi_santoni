@@ -5,6 +5,12 @@ service baseband-sh /vendor/bin/init.baseband.sh
     group system
     oneshot
 
+# Fingerprint
+service vendor.goodix_script /vendor/bin/init.goodix.sh
+    class late_start
+    user root
+    oneshot
+
 # IR
 on boot
     chown system system /sys/class/leds/infrared/transmit
