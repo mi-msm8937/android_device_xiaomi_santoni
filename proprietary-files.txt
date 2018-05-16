@@ -247,10 +247,12 @@ etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:vendor/etc/qdcm_calib_data_hx83
 etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml
 etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml
 
-# Fingerprint
+# Fingerprint - FPC - from santoni 8.2.1
+lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so|8ebf8f6bc370cec26cfcf1daebdbbb31fd66ae09
+
+# Fingerprint - Goodix
 bin/gx_fpcmd:vendor/bin/gx_fpcmd
 bin/gx_fpd:vendor/bin/gx_fpd
-lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so
 lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so
 lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
 lib64/libfp_client.so:vendor/lib64/libfp_client.so
