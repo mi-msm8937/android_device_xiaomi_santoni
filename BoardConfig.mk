@@ -29,6 +29,11 @@ else ifeq ($(TARGET_KERNEL_VERSION),4.9)
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest-l3.xml
 endif
 
+# API Override
+TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
+    /vendor/bin/mm-qcamera-daemon=27 \
+    /system/vendor/bin/mm-qcamera-daemon=27
+
 # Kernel
 TARGET_KERNEL_CONFIG := santoni_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/santoni-$(TARGET_KERNEL_VERSION)
