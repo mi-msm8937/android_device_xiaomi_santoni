@@ -1548,3 +1548,7 @@ vendor/lib64/libgxbinder.so
 # FocalTech-5336 Touchscreen
 etc/ft5336_oufei_720p.ini:vendor/etc/ft5336_oufei_720p.ini
 etc/ft5336_biel_1080p.ini:vendor/etc/ft5336_biel_1080p.ini
+
+# VNDK - from Android 10
+vendor/lib/vndk/libbinder.so|878062dea4925dd303ff026e07266f90fdb52c02
+vendor/lib/vndk-sp/libcutils.so|80f6e21fc5aade324dbc53967f6d129f9846ef29
