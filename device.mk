@@ -17,6 +17,10 @@ PRODUCT_PACKAGES += \
     init.baseband.sh \
     init.xiaomi.device.rc
 
+# Shims
+PRODUCT_PACKAGES += \
+    libwui
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
