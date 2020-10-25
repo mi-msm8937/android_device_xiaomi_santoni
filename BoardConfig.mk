@@ -21,8 +21,6 @@ TARGET_KERNEL_VERSION := 4.9
 DEVICE_PATH := device/xiaomi/santoni
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 ifeq ($(TARGET_KERNEL_VERSION),3.18)
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest-l2.xml
 else ifeq ($(TARGET_KERNEL_VERSION),4.9)
