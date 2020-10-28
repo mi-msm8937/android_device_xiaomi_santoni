@@ -85,7 +85,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libandroid_shim \
     libbinder_shim \
-    libshim_camera \
+    libshim_camera
+
+PRODUCT_PACKAGES += \
+    libbacktrace-vendor \
     libwui
 
 # VNDK
