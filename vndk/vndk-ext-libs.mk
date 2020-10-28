@@ -1,9 +1,10 @@
 EXTRA_VENDOR_LIBRARIES := \
     libpowermanager
 
-# ulysse
+# santoni
 EXTRA_VENDOR_LIBRARIES += \
+    libbinderthreadstate \
     libcutils \
     libgui \
-    libprocessgroup \
-    libstdc++
+    libstdc++ \
+    libunwind
