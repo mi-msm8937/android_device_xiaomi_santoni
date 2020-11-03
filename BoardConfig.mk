@@ -18,10 +18,7 @@ TARGET_KERNEL_VERSION := 3.18
 # Inherit from common msm8937-common
 -include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/ulysse
-
-# Asserts
-TARGET_OTA_ASSERT_DEVICE := ulysse,ugglite,ugg
+DEVICE_PATH := device/xiaomi/santoni
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
@@ -33,8 +30,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest-l3.xml
 endif
 
 # Kernel
-TARGET_KERNEL_CONFIG := ulysse_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/ulysse-$(TARGET_KERNEL_VERSION)
+TARGET_KERNEL_CONFIG := santoni_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/santoni-$(TARGET_KERNEL_VERSION)
 
 # Partitions
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -59,4 +56,4 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
 # Inherit from the proprietary version
--include vendor/xiaomi/ulysse/BoardConfigVendor.mk
+-include vendor/xiaomi/santoni/BoardConfigVendor.mk

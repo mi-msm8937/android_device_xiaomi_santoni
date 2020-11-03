@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor.mk)
+$(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
@@ -69,13 +69,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl
 
 # Properties
--include device/xiaomi/ulysse/prop.mk
+-include device/xiaomi/santoni/prop.mk
 
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.fingerprint.sh \
     init.goodix.sh \
-    init.ulysse.rc
+    init.santoni.rc
 
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh

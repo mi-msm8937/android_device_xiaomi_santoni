@@ -14,7 +14,7 @@ fi
 set -e
 
 # Required!
-export DEVICE=ulysse
+export DEVICE=santoni
 export DEVICE_COMMON=msm8937-common
 export VENDOR=xiaomi
 
