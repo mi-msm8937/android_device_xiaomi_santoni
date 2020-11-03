@@ -14,8 +14,5 @@
 /data/goodix(/.*)?                          u:object_r:gx_fpd_data_file:s0
 /data/system/fingerprint(/.*)?              u:object_r:gx_fpd_data_file:s0
 
-# Ir
-/dev/lirc0					u:object_r:lirc_device:s0
-
 # Shell Script
 /(vendor|system/vendor)/bin/init\.goodix\.sh            u:object_r:init_fingerprint_exec:s0
