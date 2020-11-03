@@ -1,4 +1,6 @@
-# Copyright (c) 2009-2012, 2014-2017, The Linux Foundation. All rights reserved.
+#! /vendor/bin/sh
+
+# Copyright (c) 2009-2016, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -25,13 +27,11 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-on post-fs-data
-    mkdir /data/vendor/qcam 0770 camera camera
+fpdb=/data/system/users/0/settings_fingerprint.xml
+gxdb=/mnt/vendor/persist/data/gxfp/0_0
 
-on property:vold.decrypt=trigger_restart_framework
-    restart vendor.fps_hal
-
-service goodix_script /vendor/bin/init.goodix.sh
-    class late_start
-    user system
-    oneshot
+if [ ! -f $fpdb ]; then
+    # group must be root to avoid dac_override
+    chown -hR system.root $gxdb
+    rm -rf $gxdb
+fi
