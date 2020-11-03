@@ -1,0 +1,1 @@
+allow ueventd sysfs_fps_attr:file rw_file_perms;

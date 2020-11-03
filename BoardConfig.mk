@@ -51,6 +51,7 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 VENDOR_SECURITY_PATCH := 2020-05-05
 
 # Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy-private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy-treble
 
