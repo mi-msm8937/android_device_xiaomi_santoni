@@ -1,0 +1,2 @@
+allow init fingerprintd_data_file:file rename;
+allow init sysfs_fps_attr:file { open read write };
