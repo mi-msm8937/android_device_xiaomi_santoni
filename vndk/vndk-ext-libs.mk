@@ -3,7 +3,6 @@ EXTRA_VENDOR_LIBRARIES := \
 
 # santoni
 EXTRA_VENDOR_LIBRARIES += \
-    libbinderthreadstate \
     libcutils \
     libgui \
     libstdc++ \
