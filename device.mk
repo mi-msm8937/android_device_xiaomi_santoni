@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
+    fakelogprint \
     libshims_android \
     libshims_ui \
     libwui

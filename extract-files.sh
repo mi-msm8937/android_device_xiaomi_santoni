@@ -51,12 +51,18 @@ function blob_fixup() {
         vendor/bin/gx_fpcmd|vendor/bin/gx_fpd)
             "${PATCHELF}" --remove-needed "libbacktrace.so" "${2}"
             "${PATCHELF}" --remove-needed "libunwind.so" "${2}"
-            if ! "${PATCHELF}" --print-needed "${2}" | grep "liblog.so" >/dev/null; then
-                "${PATCHELF}" --add-needed "liblog.so" "${2}"
+            if ! "${PATCHELF}" --print-needed "${2}" | grep "fakelogprint.so" >/dev/null; then
+                "${PATCHELF}" --add-needed "fakelogprint.so" "${2}"
             fi
             ;;
         vendor/lib64/hw/fingerprint.goodix.so)
             "${PATCHELF}" --remove-needed "libandroid_runtime.so" "${2}"
+            if ! "${PATCHELF}" --print-needed "${2}" | grep "fakelogprint.so" >/dev/null; then
+                "${PATCHELF}" --add-needed "fakelogprint.so" "${2}"
+            fi
+            ;;
+        vendor/lib64/hw/gxfingerprint.default.so)
+            "${PATCHELF}" --replace-needed "liblog.so" "fakelogprint.so" "${2}"
             ;;
     esac
 }
