@@ -35,8 +35,8 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /system/vendor/bin/mm-qcamera-daemon=27
 
 # Kernel
-TARGET_KERNEL_CONFIG := santoni_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/santoni-$(TARGET_KERNEL_VERSION)
+TARGET_KERNEL_CONFIG := mi8937_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8937-$(TARGET_KERNEL_VERSION)
 
 # Partitions
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
