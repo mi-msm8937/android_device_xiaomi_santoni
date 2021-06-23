@@ -9,6 +9,10 @@ include device/xiaomi/landtoni-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/santoni
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_santoni
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_santoni
+
 # Kernel
 TARGET_KERNEL_CONFIG := mi8937_defconfig
 
