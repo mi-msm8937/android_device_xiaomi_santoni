@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
+    libshims_android \
     libwui
 
 # Soong namespaces
