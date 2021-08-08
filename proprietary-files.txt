@@ -1,5 +1,6 @@
 # All unpinned blobs below are extracted from land-user 6.0.1 MMB29M V10.2.2.0.MALMIXM release-keys
 # santoni Package version: santoni-user 7.1.2 N2G47H V11.0.2.0.NAMMIXM release-keys
+# daisy Package version: daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 
 # ACDB
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -30,6 +31,9 @@ etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Handset_cal.acdb:vendor/etc/acdb
 etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb
 etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
 etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
+
+# Charger - from daisy
+vendor/bin/hvdcp_opti
 
 # ConsumerIR - from santoni
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
