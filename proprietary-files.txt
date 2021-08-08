@@ -1,0 +1,39 @@
+# All unpinned blobs below are extracted from land-user 6.0.1 MMB29M V10.2.2.0.MALMIXM release-keys
+
+# ACDB
+etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+etc/acdbdata/MTP/MTP_General_cal.acdb:vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
+etc/acdbdata/MTP/MTP_Global_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
+etc/acdbdata/MTP/MTP_Handset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
+etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
+etc/acdbdata/MTP/MTP_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb
+etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_General_cal.acdb:vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_General_cal.acdb
+etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Global_cal.acdb
+etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb:vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb
+etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb
+etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb
+etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb
+etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
+etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
+etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Bluetooth_cal.acdb
+etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_General_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_General_cal.acdb
+etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Global_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Global_cal.acdb
+etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Handset_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Handset_cal.acdb
+etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb
+etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
+etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
+
+# ConsumerIR
+lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
+
+# Display calibration
+etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml
+etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml
+etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml:vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml
