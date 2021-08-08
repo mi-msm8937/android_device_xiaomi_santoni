@@ -36,5 +36,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/land/land-vendor.mk)
