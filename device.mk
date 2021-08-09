@@ -41,4 +41,4 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/land/land-vendor.mk)
+$(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)

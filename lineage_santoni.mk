@@ -12,25 +12,25 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from land device
-$(call inherit-product, device/xiaomi/land/device.mk)
+# Inherit from santoni device
+$(call inherit-product, device/xiaomi/santoni/device.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := land
-PRODUCT_NAME := lineage_land
+PRODUCT_DEVICE := santoni
+PRODUCT_NAME := lineage_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 3S / 3S Prime / 3X
+PRODUCT_MODEL := Redmi 4 / 4X
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="land-user 6.0.1 MMB29M V10.2.2.0.MALMIXM release-keys"
+    PRIVATE_BUILD_DESC="santoni-user 7.1.2 N2G47H V11.0.2.0.NAMMIXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/santoni/santoni:7.1.2/N2G47H/V11.0.2.0.NAMMIXM:user/release-keys"

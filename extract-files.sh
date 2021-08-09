@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=land
+export DEVICE=santoni
 export DEVICE_COMMON=msm8937-common
 export VENDOR=xiaomi
 

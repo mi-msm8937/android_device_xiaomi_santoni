@@ -1,1 +1,1 @@
-# Device Tree for Xiaomi Redmi 3S / 3S Prime / 3X (land)
+# Device Tree for Xiaomi Redmi 4 / 4X (santoni)

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_land.mk
+    $(LOCAL_DIR)/lineage_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_land-user \
-    lineage_land-userdebug \
-    lineage_land-eng
+    lineage_santoni-user \
+    lineage_santoni-userdebug \
+    lineage_santoni-eng
