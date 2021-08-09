@@ -22,5 +22,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-10-01
 
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Inherit from the proprietary version
 include vendor/xiaomi/santoni/BoardConfigVendor.mk
