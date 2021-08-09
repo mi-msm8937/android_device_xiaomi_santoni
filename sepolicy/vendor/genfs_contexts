@@ -1,0 +1,3 @@
+# Camera
+genfscon sysfs /camera_fusion_id_back  u:object_r:sysfs_camera_fusion_id:s0
+genfscon sysfs /camera_fusion_id_front u:object_r:sysfs_camera_fusion_id:s0
