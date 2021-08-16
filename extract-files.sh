@@ -48,6 +48,14 @@ function blob_fixup() {
         vendor/lib/libmpbase.so)
             "${PATCHELF}" --replace-needed "libandroid.so" "libshims_android.so" "${2}"
             ;;
+        vendor/bin/gx_fpcmd|vendor/bin/gx_fpd)
+            if ! "${PATCHELF}" --print-needed "${2}" | grep "liblog.so" >/dev/null; then
+                "${PATCHELF}" --add-needed "liblog.so" "${2}"
+            fi
+            ;;
+        vendor/lib64/hw/fingerprint.goodix.so)
+            "${PATCHELF}" --remove-needed "libandroid_runtime.so" "${2}"
+            ;;
     esac
 }
 
