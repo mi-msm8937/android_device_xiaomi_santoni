@@ -269,7 +269,7 @@ etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml:vendor/etc/qdcm_calib_data_il
 bin/gx_fpcmd:vendor/bin/gx_fpcmd
 bin/gx_fpd:vendor/bin/gx_fpd
 lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so
-lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so
+lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so|6948fcf68dd74bb5b87bb7baadf053f514cdc501
 lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
-lib64/libfp_client.so:vendor/lib64/libfp_client.so
-lib64/libfpservice.so:vendor/lib64/libfpservice.so
+lib64/libfp_client.so:vendor/lib64/libfp_client.so|2851208e79ff8885b42552e6761a4bac76a3ebb0
+lib64/libfpservice.so:vendor/lib64/libfpservice.so|affe16ef39c6ef3f2b8e13f6b830163eb7884c12
