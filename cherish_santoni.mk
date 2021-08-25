@@ -15,6 +15,9 @@ $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-cherish
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := santoni
 PRODUCT_NAME := cherish_santoni
