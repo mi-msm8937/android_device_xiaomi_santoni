@@ -16,6 +16,8 @@
 #define LOG_TAG "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_santoni"
 #define LOG_VERBOSE "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_santoni"
 
+#include <android-base/properties.h>
+
 #include <hardware/hw_auth_token.h>
 
 #include <hardware/hardware.h>
@@ -47,6 +49,7 @@ BiometricsFingerprint::BiometricsFingerprint() : mClientCallback(nullptr), mDevi
     mDevice = openHal();
     if (!mDevice) {
         ALOGE("Can't open HAL module");
+        android::base::SetProperty("ro.vendor.fingerprint.failed", "1");
     }
 }
 
