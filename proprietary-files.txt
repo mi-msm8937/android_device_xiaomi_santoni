@@ -1,4 +1,5 @@
 # All unpinned blobs below are extracted from santoni-user 7.1.2 N2G47H V11.0.2.0.NAMMIXM release-keys
+# riva Package version: riva-user 7.1.2 N2G47H V9.2.4.0.NCKMIEK release-keys
 
 # ACDB
 etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Bluetooth_cal.acdb
@@ -138,8 +139,9 @@ vendor/lib/libmmcamera_s5k3l8_ofilm.so
 vendor/lib/libmmcamera_s5k5e8_sunny_eeprom.so
 vendor/lib/libmmcamera_s5k5e8_sunny.so
 
-# Camera stack
+# Camera stack - from riva
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
+vendor/lib/libchromaflash.so
 vendor/lib/libflash_gpio.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
@@ -231,11 +233,14 @@ vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libois_lc898122.so
+vendor/lib/liboptizoom.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libseemore.so
+vendor/lib/libtrueportrait.so
+vendor/lib/libubifocus.so
 
 # Display calibration
 etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml
