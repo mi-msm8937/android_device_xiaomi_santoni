@@ -253,7 +253,9 @@ lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so|8ebf8f6bc370c
 # Fingerprint - Goodix
 bin/gx_fpcmd:vendor/bin/gx_fpcmd
 bin/gx_fpd:vendor/bin/gx_fpd
-lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so|f5ab3acc920321496487cd88140b247dcbc4eed5
 lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
 lib64/libfp_client.so:vendor/lib64/libfp_client.so|2851208e79ff8885b42552e6761a4bac76a3ebb0
 lib64/libfpservice.so:vendor/lib64/libfpservice.so|b356fb739388ff96235c7463899e2a942bc9c6fa
+
+# Fingerprint - Goodix - from the heaven
+vendor/lib64/hw/fingerprint.goodix.so|e2049d3e298d7919c7ef96b6c6e50898ab195d9f
