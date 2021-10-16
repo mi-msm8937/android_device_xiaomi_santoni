@@ -1,2 +1,3 @@
 # Xiaomi santoni - Fingerprint
 ro.vendor.fingerprint.supported=1
+vendor.fingerprint.disable_notify_cancel_hack=1
