@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     init.baseband.sh \
+    init.baseband.proxy.rc \
     init.xiaomi.device.rc
 
 # Shims
