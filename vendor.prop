@@ -1,3 +1,6 @@
+# Xiaomi santoni - Camera
+persist.camera.gyro.disable=0
+
 # Xiaomi santoni - Fingerprint
 ro.vendor.fingerprint.supported=1
 vendor.fingerprint.disable_notify_cancel_hack=1
